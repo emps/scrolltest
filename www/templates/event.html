@@ -1,0 +1,11 @@
+<ion-view>
+    <ion-content class="has-header">
+
+        <div collection-repeat="picture in event.pictures"
+             collection-item-width="'100%'"
+             collection-item-height="'100%'">
+            <img ng-src="images/{{picture}}">
+        </div>
+
+    </ion-content>
+</ion-view>
